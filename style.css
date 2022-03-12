@@ -361,7 +361,18 @@ padding: 0 13px;
 }
 
 @media (max-width:786px){
-	.wrapper{
-		max-height:100%;
-	}
+	body{
+height:100vh;
+background:#f7f7f7;
+}
+
+.wrapper{
+width:450px;
+border-radius:0px;
+box-shadow:none;
+position:fixed;
+height:100%;
+}
+
+
 }
